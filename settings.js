@@ -26,9 +26,13 @@ var MODIFICATIONS = {
     "1-1-19x": new Modification("Vanilla 1.1.19 - Expensive", "vanilla-1.1.19-expensive.json", false, [480, 512]),
     "1-1-53bl-ds": new Modification("Bob's Logistics + Deadlock stacked 1.1.53", "bobs-logistics-deadlock-stacked-1.1.53.json", false, [480, 512]),
     "1-1-53bl-dsx": new Modification("Bob's Logistics + Deadlock stacked 1.1.53 - Expensive", "bobs-logistics-deadlock-stacked-1.1.53-expensive.json", false, [480, 512]),
+    "1-1-53rcvg": new Modification("RCVG Multiplayer 1.1.53 2022-03-03", "rcvg-multiplayer-1.1.53.json", false, [480, 512]),
+    "1-1-53rcvgx": new Modification("RCVG Multiplayer 1.1.53 2022-03-03 - Expensive", "rcvg-multiplayer-1.1.53-expensive.json", false, [480, 512]),
+    "1-1-53rcvg-wd": new Modification("RCVG Multiplayer - Wave Defense 1.1.53 2022-03-03", "rcvg-wave-defense-1.1.53.json", false, [480, 512]),
+    "1-1-53rcvg-wdx": new Modification("RCVG Multiplayer - Wave Defense 1.1.53 2022-03-03 - Expensive", "rcvg-wave-defense-1.1.53-expensive.json", false, [480, 512]),
 }
 
-var DEFAULT_MODIFICATION = "1-1-19"
+var DEFAULT_MODIFICATION = "1-1-53rcvg"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")
